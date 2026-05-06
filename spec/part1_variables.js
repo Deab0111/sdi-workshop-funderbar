@@ -18,10 +18,10 @@
     describe('dataType', function() {
 
       it('should return the data type of the value passed into it', function() {
-        expect(_.dataType(1)).to.eql(1);
-        expect(_.dataType(false)).to.eql(false);
-        expect(_.dataType('Data Type')).to.equal('Data Type');
-        expect(_.dataType(undefined)).to.equal(undefined);
+        expect(_.dataType(1)).to.eql(number);
+        expect(_.dataType(false)).to.eql(boolean);
+        expect(_.dataType('Data Type')).to.equal('string');
+        expect(_.dataType(undefined)).to.equal(`undefined`);
       });
     });
 
