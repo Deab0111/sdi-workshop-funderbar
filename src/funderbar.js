@@ -10,9 +10,9 @@
 // to help guide you toward success in your work on the following exercises.
   _.define = function(input){
     // Declare a variable below that is assigned the value of input;
-    var result = hello;
+    var result = input;
     // return the above variable
-    return result;
+    return input;
   }
 
 //_.dataType is wanting you to determine the data type of what is being passed into it.
